@@ -1,1 +1,9 @@
+[22,27,16,2,18,6]
 
+1. aşama 2 ve 22 yer değiştirir; [2,27,16,22,18,6]
+2. aşama 6 ve 27 yer değiştirir; [2,6,16,22,18,27]
+3. aşama 16 zaten sıralamada doğru yerde olduğu için sabit kalır
+4. aşama 18 ve 22 yer değiştirir ve sıralaama tamamlanmış olur; [2,6,16,18,22,27]
+
+- 18 satusu liste ortasında olduğu için average case'dedir.
+- Big-O değeri o(n^2)'dir.
